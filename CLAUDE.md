@@ -110,3 +110,4 @@ git push origin main
 - PE/ROE等指标用 tools/financial_rigor.py 精确计算
 - 台股数据用 tools/twstock_data.py（FinMind）获取，并按 skills/financial-data.md 台股章节交叉验证
 - 报告写完后主动询问是否推送到GitHub
+- **安装或新增任何 Skill 后，必须同步更新 `docs/已安装Skills清单.md`**（投研 Skill 更新总览表；第三方/额外 Skill 追加到「额外全局 Skill（非投研）」表）
