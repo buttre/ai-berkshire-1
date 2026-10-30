@@ -33,8 +33,16 @@ reports/
 ├── 核电-industry-20260409.md — 行业报告放根目录
 ├── AI算力-funnel-20260509.md  — 漏斗筛选报告放根目录
 ├── AI-轮动判断-20260509.md    — 主题级综合判断报告放根目录
-├── portfolio-latest.md       — 组合报告放根目录
 └── 多公司对比-checklist-20260408.md — 多公司报告放根目录
+```
+
+**实盘持仓与交易记录单独放根目录的 `持仓与交易/`**（与研究报告分离，不放在 reports/ 下）：
+
+```
+持仓与交易/
+├── portfolio-latest.md              — 组合快照（本地维护，已被 .gitignore 排除，不公开）
+├── 交易日志.md                       — 逐笔交易记录：入场/加仓/出场的信号核验与合规判定
+└── 交易系统-波段规则手册-{YYYYMMDD}.md — 波段交易系统规则（买卖点、仓位、止损）
 ```
 
 ## 报告命名规范
@@ -50,7 +58,7 @@ reports/
 | /earnings-review | `{公司名}-earnings-{期间}.md` | `reports/腾讯/腾讯-earnings-2025Q4.md` |
 | /earnings-team | `{公司名}/` 目录内含4个大师视角+研究底稿+公众号文章+读者评审 | `reports/腾讯/腾讯-earnings-2025Q4.md`（公众号定稿） |
 | /thesis-tracker | `{公司名}-thesis.md`（长期维护） | `reports/腾讯/腾讯-thesis.md` |
-| /portfolio-review | `portfolio-latest.md`（根目录，持续更新） | `reports/portfolio-latest.md` |
+| /portfolio-review | `portfolio-latest.md`（`持仓与交易/` 下，持续更新，不入库） | `持仓与交易/portfolio-latest.md` |
 | /management-deep-dive | `{公司名}-management-{YYYYMMDD}.md` | `reports/腾讯/腾讯-management-20260409.md` |
 
 ## /investment-team 文件结构

@@ -35,6 +35,6 @@ assets/公司品牌图/
 *.token
 
 # 组合报告只存本地，不公开
-reports/portfolio-latest.md
+持仓与交易/portfolio-latest.md
 
 # 实盘记录/ 公开权重口径版；原始账本（含股数/金额）在 local/实盘记录-原始/（已被 /local/ 规则覆盖）

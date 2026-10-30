@@ -23,7 +23,7 @@
 | 9 | **/industry-funnel** | 行业漏斗筛选：全市场逐层精选到 3 家终选 | `/industry-funnel AI算力` | `reports/{行业}-funnel-YYYYMMDD.md` |
 | 10 | **/quality-screen** | 去劣筛选：7 条指标排除非一流公司 | `/quality-screen 恒生指数成分股` | 根目录筛选报告 |
 | 11 | **/bottleneck-hunter** | 供应链瓶颈扫描与套利机会挖掘（找"先不够用"的一环） | `/bottleneck-hunter AI基础设施` | 根目录 |
-| 12 | **/portfolio-review** | 投资组合审视与优化 | `/portfolio-review 腾讯30%, 美团20%, 茅台20%, 现金30%` | `reports/portfolio-latest.md` |
+| 12 | **/portfolio-review** | 投资组合审视与优化 | `/portfolio-review 腾讯30%, 美团20%, 茅台20%, 现金30%` | `持仓与交易/portfolio-latest.md` |
 | 13 | **/income-investment** | 股息收入投资分析（**仓库有、本机未安装**） | `/income-investment Verizon mode=existing role=core-income quantity=100 cost_basis=39.50 tax_residence=France horizon=5y` | 根目录 |
 | 14 | **/thesis-tracker** | 买入后论文纪律系统（建论文/季度检查） | `/thesis-tracker 拼多多` | `reports/{公司}-thesis.md` |
 | 15 | **/thesis-drift** | 投资论文漂移检测（区分事实变化与措辞变化） | `/thesis-drift 拼多多 <旧路径> <新路径>` | 根目录 |
