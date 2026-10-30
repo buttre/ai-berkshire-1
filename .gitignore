@@ -4,6 +4,7 @@ __pycache__/
 *.pyc
 .codex/
 .codewhale/
+.obsidian/
 /tmp/
 logs/*
 reports/美团/command-log.jsonl

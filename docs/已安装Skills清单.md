@@ -2,7 +2,7 @@
 
 > 生成日期：2026-09-07
 >
-> 本项目共 **20** 个投研 Skill，均已安装到本地 Claude 环境，三处位置内容一致：
+> 本项目共 **21** 个投研 Skill，均已安装到本地 Claude 环境，三处位置内容一致：
 > - 仓库源码：`skills/{skill}.md`
 > - 安装副本 1：`~/.claude/commands/{skill}.md`
 > - 安装副本 2：`~/.claude/skills/{skill}/SKILL.md`
@@ -35,13 +35,14 @@
 | 18 | `thesis-drift` | 投资论文漂移检测：分清事实变化与措辞变化 | 持仓与纪律 | `公司名 旧报告 新报告` 或公司名 | 新旧论文/报告对比，区分事实/价格/措辞三种变化，只在证据变时承认论文漂移 | `/thesis-drift 腾讯 腾讯-thesis-20260101.md 腾讯-thesis-20260701.md` | 漂移检测报告 |
 | 19 | `thesis-tracker` | 投资论文追踪：买入后的纪律系统 | 持仓与纪律 | 公司名（或 `公司名 季度检查`） | 买入后纪律：首次建立投资论文（含卖出条件/红线），之后季度检查论文是否仍完整 | `/thesis-tracker 腾讯 季度检查` | `reports/{公司名}/{公司名}-thesis.md` |
 | 20 | `wechat-article` | 微信公众号文章：作者-编辑-读者三 Agent 协作 | 内容与问答 | 主题描述 | 把一个主题/论文深挖成可直接发布的公众号文章（作者写、编辑修、读者审三 Agent） | `/wechat-article 为什么巴菲特不买科技股` | 可直接发布的公众号文章 |
+| 21 | `etf-checklist` | ETF / 指数基金买入前 Checklist：指数编制规则、成分股质量、规则稳定性、费率/跟踪误差/规模流动性/折溢价、估值历史分位 | 行业与筛选 | 指数名或 ETF 代码（如 `科创50`、`513500`） | 评估某个指数或 ETF 能不能配置；第四关以「产品与运营」（费率/跟踪误差/规模/折溢价）替代个股的「管理层」，第六关增加溢价纪律 | `/etf-checklist 科创50` | `reports/ETF/{标的名}-etf-checklist-{YYYYMMDD}.md` |
 
 ## 分类速览
 
 | 分类 | 数量 | Skills |
 |------|------|--------|
 | 个股研究 | 8 | `earnings-review` `earnings-team` `income-investment` `investment-checklist` `investment-research` `investment-team` `management-deep-dive` `private-company-research` |
-| 行业与筛选 | 4 | `bottleneck-hunter` `industry-funnel` `industry-research` `quality-screen` |
+| 行业与筛选 | 5 | `bottleneck-hunter` `etf-checklist` `industry-funnel` `industry-research` `quality-screen` |
 | 持仓与纪律 | 3 | `portfolio-review` `thesis-drift` `thesis-tracker` |
 | 内容与问答 | 3 | `deep-company-series` `dyp-ask` `wechat-article` |
 | 数据与工具 | 2 | `financial-data` `news-pulse` |
